@@ -1,0 +1,21 @@
+﻿.content{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	.img-wrapper{
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		.img-head{
+			width: 32%;
+			display: inline-block; 
+			margin: 0px;
+		}
+	}
+	.tooltip{
+		position: absolute;
+		border-radius: 50px;
+		border: 1px solid #808080;
+		font-family: 'Courier New';
+	}
+}

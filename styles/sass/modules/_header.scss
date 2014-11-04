@@ -1,9 +1,36 @@
-﻿
-.headline{
-	width: 200px;
-	margin-left: auto;
-	margin-right: auto;
-	.center{
-		color: red;
+﻿.header{
+	width: 50%;
+	margin: 5% auto 40px auto;
+	.img-wrapper{
+		width: 100px;
+		margin-top: 20px;
+		.logo{
+			width:100%;
+		}
+	}
+	.menu{
+		text-align: center;
+		margin-top: -50px;
+		a{
+			text-decoration: none;
+			color: #000000; 
+		}
+		.item{
+			font-family: 'Courier New';
+			text-decoration: none;
+			color: #000000;
+			display: inline-block;
+			margin: 0 5px 3px 5px;
+			&:hover{
+				opacity: 0.8;
+				-webkit-transition: all .5s ease-in-out;
+				-moz-transition: all .5s ease-in-out;
+				-o-transition: all .5s ease-in-out;
+				transition: all .5s ease-in-out;
+			}
+		}
+		li.item-selected{
+
+		}
 	}
 }

@@ -1,0 +1,13 @@
+﻿body.welcome{
+	width: 100%;
+	height: 100%;
+	background-color: #e7e7e7;
+	margin: 0;
+	.img-wrapper{
+		width: 25%;
+		margin: 10% auto;
+		.logo{
+			max-width: 100%;
+		}
+	}
+}
