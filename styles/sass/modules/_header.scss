@@ -1,6 +1,6 @@
 ﻿.header{
 	width: auto;
-	margin: 5% auto 40px auto;
+	margin: 30px auto 40px auto;
 		.logo{
 			width: 100px;
 			display: block;
@@ -9,13 +9,15 @@
 		}
 	.menu{
 		text-align: center;
+		margin-top: 20px;
+		margin-left: -30px;
 		a{
 			text-decoration: none;
 			color: #000000; 
 		}
 		.item{
+			text-align: center; 
 			font-family: 'Courier New';
-			text-decoration: none;
 			color: #000000;
 			display: inline-block;
 			margin: 0 5px 3px 5px;
