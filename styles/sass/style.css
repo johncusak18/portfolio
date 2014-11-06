@@ -13,6 +13,17 @@ body.welcome {
     margin: 10% auto; }
     body.welcome .img-wrapper .logo {
       max-width: 100%; }
+    body.welcome .img-wrapper .infotext {
+      display: none;
+      padding-top: 50px; }
+    body.welcome .img-wrapper a:hover + .infotext {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      font-family: 'Courier New';
+      font-weight: 100;
+      color: #808080; }
 
 .header {
   width: auto;
@@ -41,6 +52,9 @@ body.welcome {
         -moz-transition: all 0.5s ease-in-out;
         -o-transition: all 0.5s ease-in-out;
         transition: all 0.5s ease-in-out; }
+
+body.front {
+  background-color: #e7e7e7; }
 
 .content {
   width: 75%;

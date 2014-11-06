@@ -8,6 +8,7 @@
 		touchDrag: true,
 		singleItem: true,
 		pagination: false,
+		autoHeight: true,
 		transitionStyle: "fade"
 	});
 

@@ -9,5 +9,18 @@
 		.logo{
 			max-width: 100%;
 		}
+		.infotext{
+			display: none;
+			padding-top: 50px;
+		}
+		a:hover + .infotext{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			font-family: 'Courier New';
+			font-weight: 100;
+			color: #808080;
+		}
 	}
 }
