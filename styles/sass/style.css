@@ -17,9 +17,11 @@ body.welcome {
       display: none;
       padding-top: 50px; }
     body.welcome .img-wrapper a:hover + .infotext {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+      display: inherit;
+      position: absolute;
+      left: 40%;
+      right: 40%;
+      font-size: 3em;
       text-align: center;
       font-family: 'Courier New';
       font-weight: 100;
@@ -112,7 +114,10 @@ body.front {
     width: 15%;
     margin: 5% auto 40px auto; }
     .carousel .img-wrapper .img-mads {
-      width: 100%; }
+      width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
   .carousel .text-carousel {
     text-align: center;
     color: #808080;
@@ -126,5 +131,17 @@ body.front {
     .carousel .img-gallery img {
       width: 200px;
       margin: 3px; }
+    .carousel .img-gallery .fancybox-opened .fancybox-skin {
+      -webkit-box-shadow: 0 0 0;
+      -moz-box-shadow: 0 0 0;
+      box-shadow: 0 0 0; }
+  .carousel .link-gallery {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+    .carousel .link-gallery .link-item {
+      width: 200px; }
+      .carousel .link-gallery .link-item:hover {
+        opacity: 0.8; }
 
 /*# sourceMappingURL=style.css.map */

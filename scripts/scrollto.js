@@ -18,6 +18,7 @@ $(document).ready(function () {
 		prevEffect: 'none',
 		nextEffect: 'none',
 		closeBtn: false,
+		padding: 0,
 		helpers: {
 			title: { type: 'inside' },
 			buttons: {}
@@ -34,7 +35,8 @@ $(document).ready(function () {
 		autoSize: false,
 		closeClick: false,
 		openEffect: 'none',
-		closeEffect: 'none'
+		closeEffect: 'none',
+		padding: 0,
 	});
 });
 $(document).click(function (e) {
