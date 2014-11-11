@@ -109,7 +109,8 @@ body.front {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Courier New'; }
+  font-family: 'Courier New';
+  cursor: url('../../../images/cursor.png'), auto; }
   .carousel .img-wrapper {
     width: 15%;
     margin: 5% auto 40px auto; }
@@ -127,10 +128,10 @@ body.front {
   .carousel .img-gallery {
     width: 90%;
     margin-left: auto;
-    margin-right: auto; }
-    .carousel .img-gallery img {
-      width: 200px;
-      margin: 3px; }
+    margin-right: auto;
+    vertical-align: img;
+    vertical-align-width: 200px;
+    vertical-align-margin: 3px; }
     .carousel .img-gallery .fancybox-opened .fancybox-skin {
       -webkit-box-shadow: 0 0 0;
       -moz-box-shadow: 0 0 0;
